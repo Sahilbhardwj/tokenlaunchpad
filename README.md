@@ -2,6 +2,12 @@
 
 This project is a **Solana token launchpad** that allows users to create their own Solana-based tokens and mint them on the blockchain. It is built using Solana's blockchain  and includes wallet adapater used for wallet integration and launching your own token.
 
+
+### ⚠️ Disclaimer
+
+> This project currently prioritizes **functionality over design**.  
+> The UI is minimal or non-styled as the main focus was on developing and testing the **core Solana token creation and minting logic**.  
+
 ## Features
 - **Token Creation**: Create new tokens on the Solana blockchain.
 - **Minting**: Mint your custom tokens after creation.
