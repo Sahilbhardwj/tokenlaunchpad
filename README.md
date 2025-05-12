@@ -1,12 +1,40 @@
-# React + Vite
+# Solana Token Launchpad
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **Solana token launchpad** that allows users to create their own Solana-based tokens and mint them on the blockchain. It is built using Solana's blockchain  and includes wallet adapater used for wallet integration and launching your own token.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### ⚠️ Disclaimer
 
-## Expanding the ESLint configuration
+> This project currently prioritizes **functionality over design**.  
+> The UI is minimal or non-styled as the main focus was on developing and testing the **core Solana token creation and minting logic**.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- **Token Creation**: Create new tokens on the Solana blockchain.
+- **Minting**: Mint your custom tokens after creation.
+- **Wallet Integration**: Easy integration with Solana wallets like Phantom ,backpack etc.
+- **Custom Token Parameters**: Customize supply, decimals, and more.
+- Additional features like burning tokens, transferring tokens, etc.
+
+## Technologies Used
+- **Solana Web3.js** for frontend interaction
+- **Frontend**: React (or your chosen framework)
+- **Solana Wallet Integration**: Phantom, backpack etc
+-  **Solana Wallet Adapter**: Provides an easy interface for integrating Solana wallets.
+
+## Installation Instructions
+
+To get this project running locally, follow these steps:
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/solana-token-launchpad.git
+2.  Navigate to the project directory:
+    ```bash
+      cd solana-token-launchpad
+ 3. Install dependencies:
+     ```bash
+      npm install
+ 4 .Run the frontend:
+  ```bash 
+   npm run dev
+
